@@ -7,7 +7,8 @@ import AppContent from './mycomponents/AppContent';
 import AppFooter from './mycomponents/AppFooter';
 import AppCounter from './mycomponents/AppCounter';
 import Employee from './mycomponents/Employee';
-import ContactForm from './mycomponents/ContactForm';
+//import ContactForm from './mycomponents/ContactForm'; //uncontrolled form component
+import ContactForm from './mycomponents/ContactFormCtrld'; //controlled form component
 
 
 
@@ -26,7 +27,8 @@ function App() {
 
       {/* <AppCounter/> */}
       {/* <Employee /> */}
-      <ContactForm />
+      {/* <ContactForm /> */}
+      <AppContent/>
     </div>
   );
 }

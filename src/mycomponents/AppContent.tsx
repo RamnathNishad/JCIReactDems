@@ -1,5 +1,11 @@
 import { Component, ReactNode } from "react";
 import './AppContent.css';
+import Contact from "./Contact";
+import ContactList from "./ContactList";
+import contactsData from "./ContactsData";
+
+const contacts:Contact[]=contactsData
+
 
 class AppContent extends Component{
 
@@ -12,9 +18,8 @@ class AppContent extends Component{
     render(): ReactNode {
         return (
             <div className="app-content">           
-
-                <h3>This is the content area of our application</h3>
-                <button className="btn btn-primary" onClick={this.btnHandler}>Button 1</button>
+                <h1 className="alert alert-info">Using ContactCard Form</h1>
+               <ContactList contacts={contacts} />
             </div>
         )
     }

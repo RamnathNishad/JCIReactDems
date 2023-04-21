@@ -1,0 +1,66 @@
+import Contact from "./Contact";
+
+const contacts:Contact[]=[
+    {
+        name:'Alexa',
+        email:'alexa@amazon.com',
+        phone:'987654332',
+        picture:'images/1.jpg'
+    },
+    {
+        name:'Siri',
+        email:'siri@flipkart.com',
+        phone:'645243424',
+        picture:'images/2.jpg'
+    },
+    {
+        name:'Ravi',
+        email:'ravi@flipkart.com',
+        phone:'645243424',
+        picture:'images/3.jpg'
+    },
+    {
+        name:'David',
+        email:'david@flipkart.com',
+        phone:'645243424',
+        picture:'images/4.jpg'
+    },
+    {
+        name:'John',
+        email:'John@flipkart.com',
+        phone:'645243424',
+        picture:'images/5.jpg'
+    },
+    {
+        name:'Tom',
+        email:'tom@flipkart.com',
+        phone:'645243424',
+        picture:'images/6.jpg'
+    },
+    {
+        name:'Iyan',
+        email:'iyan@flipkart.com',
+        phone:'645243424',
+        picture:'images/7.jpg'
+    },
+    {
+        name:'Santosh',
+        email:'santosh@amazon.com',
+        phone:'645243424',
+        picture:'images/8.jpg'
+    },
+    {
+        name:'Ritesh',
+        email:'ritesh@flipkart.com',
+        phone:'645243424',
+        picture:'images/9.jpg'
+    },
+    {
+        name:'Raman',
+        email:'raman@flipkart.com',
+        phone:'645243424',
+        picture:'images/10.jpg'
+    }
+];
+
+export default contacts;
