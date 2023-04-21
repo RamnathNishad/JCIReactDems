@@ -1,24 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
 
+import AppHeader from './mycomponents/AppHeader';
+import AppContent from './mycomponents/AppContent';
+import AppFooter from './mycomponents/AppFooter';
+import AppCounter from './mycomponents/AppCounter';
+import Employee from './mycomponents/Employee';
+import ContactForm from './mycomponents/ContactForm';
+
+
+
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  const footerProps={
+    website:'https:/abc.co',
+    company:'RNishad Inc',
+    year:2023
+  }
+   return (
+    <div className="container">
+      {/* <AppHeader title="Addressbook App - v1.0" subheading="Created by Ramnath"/>
+      <AppContent/>
+      {/* <AppFooter  website={footerProps.website} company={footerProps.company} year={footerProps.year}/> */}
+      {/* <AppFooter {...footerProps}/> */} 
+
+      {/* <AppCounter/> */}
+      {/* <Employee /> */}
+      <ContactForm />
     </div>
   );
 }
