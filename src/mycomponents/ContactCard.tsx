@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Contact from "./Contact";
 
 interface ContactProps {
@@ -21,6 +22,12 @@ const ContactCard = ({ contact }: ContactProps) => {
                             <h5 className="">{contact.name}</h5>
                             <div className="">{contact.email}</div>
                             <div className="">{contact.phone}</div>
+                            <div className="">
+                                <Link to={"/contact-by-id/"+contact.id}>
+                                    Details
+                                </Link>
+                            </div>
+                            
                         </div>
                     </div>
                 </div>

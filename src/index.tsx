@@ -6,13 +6,17 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import MathsFcApp from './mycomponents/MathsFcApp';
+import AppCounter from './mycomponents/AppCounter';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <MathsFcApp/ > */}
+    <AppCounter />
   </React.StrictMode>
 );
 

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Contact from "./Contact"
 import ContactCard from "./ContactCard";
 
@@ -12,6 +13,7 @@ const ContactList = ({ contacts }: ContactProps) => {
 
     return (
         <>
+            <Link to="/">Back to Home</Link>
             {cardItems}
         </>
     )

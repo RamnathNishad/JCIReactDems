@@ -2,60 +2,70 @@ import Contact from "./Contact";
 
 const contacts:Contact[]=[
     {
+        id:1,
         name:'Alexa',
         email:'alexa@amazon.com',
         phone:'987654332',
         picture:'images/1.jpg'
     },
     {
+        id:2,
         name:'Siri',
         email:'siri@flipkart.com',
         phone:'645243424',
         picture:'images/2.jpg'
     },
     {
+        id:3,
         name:'Ravi',
         email:'ravi@flipkart.com',
         phone:'645243424',
         picture:'images/3.jpg'
     },
     {
+        id:4,
         name:'David',
         email:'david@flipkart.com',
         phone:'645243424',
         picture:'images/4.jpg'
     },
     {
+        id:5,
         name:'John',
         email:'John@flipkart.com',
         phone:'645243424',
         picture:'images/5.jpg'
     },
     {
+        id:6,
         name:'Tom',
         email:'tom@flipkart.com',
         phone:'645243424',
         picture:'images/6.jpg'
     },
     {
+        id:7,
         name:'Iyan',
         email:'iyan@flipkart.com',
         phone:'645243424',
         picture:'images/7.jpg'
     },
     {
+        id:8,
         name:'Santosh',
         email:'santosh@amazon.com',
         phone:'645243424',
         picture:'images/8.jpg'
     },
     {
+        id:9,
         name:'Ritesh',
         email:'ritesh@flipkart.com',
         phone:'645243424',
         picture:'images/9.jpg'
     },
     {
+        id:10,
         name:'Raman',
         email:'raman@flipkart.com',
         phone:'645243424',

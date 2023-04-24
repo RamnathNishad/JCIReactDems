@@ -4,6 +4,11 @@ import { Component, ReactNode } from "react";
 class AppCounter extends Component {
     state={num:0};
 
+    constructor(props:any){
+        super(props);
+        console.log("constructor is called at ", new Date());
+    }
+
     increment=()=>{
         console.log("increment");
         //this.state.num=this.state.num + 1;
@@ -15,9 +20,30 @@ class AppCounter extends Component {
         this.setState({num:this.state.num - 1});
     }
    
+    componentDidMount(): void {
+        console.log("componetDidMount is called at ",new Date());
+    }
+
+    static getDerivedStateFromProps(){
+        console.log("getDerivedStateFromProps() is called at ",new Date());
+        return true;
+    }
+
+    shouldComponentUpdate(nextProps: Readonly<{}>, nextState: Readonly<{}>, nextContext: any): boolean {
+        console.log("shoulComponentUpdate() is called");
+        return true;
+    }
+    componentDidUpdate(prevProps: Readonly<{}>, prevState: Readonly<{}>, snapshot?: any): void {
+        console.log("componentDidUpdate() is called");
+    }
+
+
+
+
 
     render(): ReactNode {
        // console.log(this);
+       console.log("render() is called at ", new Date());
         return (
             <div className="container">
          
