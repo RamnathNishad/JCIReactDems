@@ -8,6 +8,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import MathsFcApp from './mycomponents/MathsFcApp';
 import AppCounter from './mycomponents/AppCounter';
+import ReduxDemo from './mycomponents/ReduxDemo';
+
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -16,7 +18,8 @@ root.render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <MathsFcApp/ > */}
-    <AppCounter />
+    {/* <AppCounter /> */}
+  <ReduxDemo />
   </React.StrictMode>
 );
 

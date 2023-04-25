@@ -1,0 +1,53 @@
+{
+    "contacts": [
+        {
+            "id": 1,
+            "name": "Alexa",
+            "email": "alexa@amazon.com",
+            "phone": "987654332",
+            "picture": "images/1.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Siri",
+            "email": "siri@amazon.com",
+            "phone": "987654332",
+            "picture": "images/2.jpg"
+        },
+        {
+            "id": 3,
+            "name": "John",
+            "email": "john@amazon.com",
+            "phone": "987654332",
+            "picture": "images/3.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Tom",
+            "email": "tom@amazon.com",
+            "phone": "987654332",
+            "picture": "images/4.jpg"
+        },
+        {
+            "id": 5,
+            "name": "David",
+            "email": "david@amazon.com",
+            "phone": "987654332",
+            "picture": "images/5.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Raman",
+            "email": "raman@amazon.com",
+            "phone": "987654332",
+            "picture": "images/6.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Iyan",
+            "email": "iyan@amazon.com",
+            "phone": "987654332",
+            "picture": "images/7.jpg"
+        }
+    ]
+}
